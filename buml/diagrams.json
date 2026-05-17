@@ -1,0 +1,333 @@
+{
+  "project": {
+    "id": "8555a2a5-1aa0-4d4e-be32-37b85438cc80",
+    "type": "Project",
+    "schemaVersion": 4,
+    "name": "New_Project",
+    "description": "Modern workspace project for UML, GUI and quantum modeling.",
+    "owner": "BESSER User",
+    "createdAt": "2026-05-17T22:05:56.174Z",
+    "currentDiagramType": "ClassDiagram",
+    "currentDiagramIndices": {
+      "ClassDiagram": 0,
+      "ObjectDiagram": 0,
+      "StateMachineDiagram": 0,
+      "AgentDiagram": 0,
+      "UserDiagram": 0,
+      "GUINoCodeDiagram": 0,
+      "QuantumCircuitDiagram": 0,
+      "NNDiagram": 0
+    },
+    "diagrams": {
+      "ClassDiagram": [
+        {
+          "id": "34eb37e8-99f2-4380-9916-d8b9bfdeaae0",
+          "title": "Class Diagram",
+          "model": {
+            "version": "3.0.0",
+            "type": "ClassDiagram",
+            "size": {
+              "width": 840,
+              "height": 520
+            },
+            "interactive": {
+              "elements": {},
+              "relationships": {}
+            },
+            "elements": {
+              "14de0668-c1a7-4862-b3c5-d33cfe410ac7": {
+                "id": "14de0668-c1a7-4862-b3c5-d33cfe410ac7",
+                "name": "FirstClass",
+                "type": "AbstractClass",
+                "owner": null,
+                "bounds": {
+                  "x": -400,
+                  "y": -240,
+                  "width": 160,
+                  "height": 200
+                },
+                "attributes": [
+                  "40c49655-0bd6-4509-915d-a599e96a3cdd",
+                  "c43d53e4-d498-4bbc-85ef-1280aa927fb1"
+                ],
+                "methods": [
+                  "ac0d6f88-b359-49ae-b6ad-8a05e541a672",
+                  "47f79e94-fe0b-4560-870e-e58c6b510e96",
+                  "66a81835-532e-46b8-9648-4c40d1cb3622"
+                ]
+              },
+              "40c49655-0bd6-4509-915d-a599e96a3cdd": {
+                "id": "40c49655-0bd6-4509-915d-a599e96a3cdd",
+                "name": "id",
+                "type": "ClassAttribute",
+                "owner": "14de0668-c1a7-4862-b3c5-d33cfe410ac7",
+                "bounds": {
+                  "x": -399.5,
+                  "y": -189.5,
+                  "width": 159,
+                  "height": 30
+                },
+                "code": "",
+                "visibility": "private",
+                "attributeType": "int",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": true,
+                "isExternalId": false
+              },
+              "c43d53e4-d498-4bbc-85ef-1280aa927fb1": {
+                "id": "c43d53e4-d498-4bbc-85ef-1280aa927fb1",
+                "name": "counter",
+                "type": "ClassAttribute",
+                "owner": "14de0668-c1a7-4862-b3c5-d33cfe410ac7",
+                "bounds": {
+                  "x": -399.5,
+                  "y": -159.5,
+                  "width": 159,
+                  "height": 30
+                },
+                "code": "",
+                "visibility": "private",
+                "attributeType": "int",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "ac0d6f88-b359-49ae-b6ad-8a05e541a672": {
+                "id": "ac0d6f88-b359-49ae-b6ad-8a05e541a672",
+                "name": "+ getCounter() :int",
+                "type": "ClassMethod",
+                "owner": "14de0668-c1a7-4862-b3c5-d33cfe410ac7",
+                "bounds": {
+                  "x": -399.5,
+                  "y": -129.5,
+                  "width": 159,
+                  "height": 30
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "47f79e94-fe0b-4560-870e-e58c6b510e96": {
+                "id": "47f79e94-fe0b-4560-870e-e58c6b510e96",
+                "name": "+ increment()",
+                "type": "ClassMethod",
+                "owner": "14de0668-c1a7-4862-b3c5-d33cfe410ac7",
+                "bounds": {
+                  "x": -399.5,
+                  "y": -99.5,
+                  "width": 159,
+                  "height": 30
+                },
+                "code": "def increment(self):\n    \"\"\"Add your docstring here.\"\"\"\n    # Add your implementation here\n    self.counter++\n",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "code",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "66a81835-532e-46b8-9648-4c40d1cb3622": {
+                "id": "66a81835-532e-46b8-9648-4c40d1cb3622",
+                "name": "+ run()",
+                "type": "ClassMethod",
+                "owner": "14de0668-c1a7-4862-b3c5-d33cfe410ac7",
+                "bounds": {
+                  "x": -399.5,
+                  "y": -69.5,
+                  "width": 159,
+                  "height": 30
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "state_machine",
+                "stateMachineId": "145e5a84-7010-443e-b1e8-05d57e27ef00",
+                "quantumCircuitId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              }
+            },
+            "relationships": {},
+            "assessments": {}
+          },
+          "lastUpdate": "2026-05-17T22:20:10.998Z"
+        }
+      ],
+      "StateMachineDiagram": [
+        {
+          "id": "145e5a84-7010-443e-b1e8-05d57e27ef00",
+          "title": "FirstMachine",
+          "model": {
+            "version": "3.0.0",
+            "type": "StateMachineDiagram",
+            "size": {
+              "width": 1360,
+              "height": 680
+            },
+            "interactive": {
+              "elements": {},
+              "relationships": {}
+            },
+            "elements": {
+              "e52329f0-14d6-42af-af17-f4e64a7cc2a7": {
+                "id": "e52329f0-14d6-42af-af17-f4e64a7cc2a7",
+                "name": "State",
+                "type": "State",
+                "owner": null,
+                "bounds": {
+                  "x": -510,
+                  "y": -320,
+                  "width": 160,
+                  "height": 70
+                },
+                "bodies": [
+                  "7d38c798-27aa-45bb-8304-b92667e41602"
+                ],
+                "fallbackBodies": []
+              },
+              "7d38c798-27aa-45bb-8304-b92667e41602": {
+                "id": "7d38c798-27aa-45bb-8304-b92667e41602",
+                "name": "do FirstClass.run()",
+                "type": "StateBody",
+                "owner": "e52329f0-14d6-42af-af17-f4e64a7cc2a7",
+                "bounds": {
+                  "x": -509.5,
+                  "y": -279.5,
+                  "width": 159,
+                  "height": 30
+                }
+              },
+              "2c175817-207d-43d3-ad19-ab55f7c070cf": {
+                "id": "2c175817-207d-43d3-ad19-ab55f7c070cf",
+                "name": "",
+                "type": "StateInitialNode",
+                "owner": null,
+                "bounds": {
+                  "x": -660,
+                  "y": -310,
+                  "width": 45,
+                  "height": 45
+                }
+              },
+              "6b4d513c-72e1-40c8-a1a1-cdd00f2bb6df": {
+                "id": "6b4d513c-72e1-40c8-a1a1-cdd00f2bb6df",
+                "name": "",
+                "type": "StateFinalNode",
+                "owner": null,
+                "bounds": {
+                  "x": -131,
+                  "y": -306,
+                  "width": 45,
+                  "height": 45
+                }
+              }
+            },
+            "relationships": {
+              "327e8308-565f-40a3-960f-7e554d6ad6f3": {
+                "id": "327e8308-565f-40a3-960f-7e554d6ad6f3",
+                "name": "",
+                "type": "StateTransition",
+                "owner": null,
+                "bounds": {
+                  "x": -615,
+                  "y": -287.5,
+                  "width": 105,
+                  "height": 1
+                },
+                "path": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 105,
+                    "y": 0
+                  }
+                ],
+                "source": {
+                  "direction": "Right",
+                  "element": "2c175817-207d-43d3-ad19-ab55f7c070cf"
+                },
+                "target": {
+                  "direction": "Left",
+                  "element": "e52329f0-14d6-42af-af17-f4e64a7cc2a7"
+                },
+                "isManuallyLayouted": false
+              },
+              "9fc0a265-76b6-4094-9163-cfc899d6ac65": {
+                "id": "9fc0a265-76b6-4094-9163-cfc899d6ac65",
+                "name": "",
+                "type": "StateTransition",
+                "owner": null,
+                "bounds": {
+                  "x": -350,
+                  "y": -283.5,
+                  "width": 219,
+                  "height": 1
+                },
+                "path": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 219,
+                    "y": 0
+                  }
+                ],
+                "source": {
+                  "direction": "Right",
+                  "element": "e52329f0-14d6-42af-af17-f4e64a7cc2a7"
+                },
+                "target": {
+                  "direction": "Downleft",
+                  "element": "6b4d513c-72e1-40c8-a1a1-cdd00f2bb6df"
+                },
+                "isManuallyLayouted": false
+              }
+            },
+            "assessments": {}
+          },
+          "lastUpdate": "2026-05-17T22:18:25.263Z"
+        }
+      ]
+    },
+    "settings": {
+      "defaultDiagramType": "ClassDiagram",
+      "autoSave": true,
+      "collaborationEnabled": false,
+      "perspectives": {
+        "ClassDiagram": true,
+        "ObjectDiagram": true,
+        "StateMachineDiagram": true,
+        "AgentDiagram": true,
+        "UserDiagram": true,
+        "GUINoCodeDiagram": true,
+        "QuantumCircuitDiagram": true,
+        "NNDiagram": true
+      }
+    }
+  },
+  "exportedAt": "2026-05-17T22:20:21.508Z",
+  "version": "2.0.0"
+}
